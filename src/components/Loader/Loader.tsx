@@ -1,13 +1,8 @@
 import React from 'react';
-import { BounceLoader } from 'react-spinners';
 import css from './Loader.module.css';
 
 const Loader = () => {
-  return (
-    <div className={css.loaderBackdrop}>
-      <BounceLoader color="#71f489" />
-    </div>
-  );
+  return <p className={css.text}>Loading movies, please wait...</p>;
 };
 
 export default Loader;
